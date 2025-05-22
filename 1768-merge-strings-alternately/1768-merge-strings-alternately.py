@@ -1,21 +1,14 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        i = 0
-        j = 0
+        sml = min(len(word1), len(word2))
         res = ""
-        lent = min(len(word1), len(word2))
-        for n in range(lent):
-            if i< len(word1) and j < len(word2):
-                res += word1[i]
-                res += word2[j]
+        for i in range(sml):
+            res += word1[i]
+            res += word2[i]
 
-                i += 1
-                j += 1
-
-        if i < len(word1):
-            res += word1[i:]
-
-        if j < len(word2):
-            res += word2[j:]
+        if len(word1)>len(word2):
+            res += word1[sml:]
+        else:
+            res += word2[sml:]
 
         return res
