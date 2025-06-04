@@ -1,15 +1,22 @@
 class Solution:
+    def generateRow(self, row):
+        ans = 1
+        res = [1]
+
+        for col in range(1, row):
+            ans *= (row-col)
+            ans = ans//col
+
+            res.append(ans)
+        return res
+
     def generate(self, numRows: int) -> List[List[int]]:
-        sol = []
+        ans = []
+        for i in range(1,numRows+1):
+            ans.append(self.generateRow(i))
 
-        for n in range(numRows):
-            row = [1]
-            val = 1
-            for k in range(1, n+1):
-                val = val*(n-k+1)//k
+        return ans
 
-                row.append(val)
 
-            sol.append(row)
 
-        return sol
+        
