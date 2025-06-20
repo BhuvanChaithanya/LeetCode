@@ -1,14 +1,19 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        sml = min(len(word1), len(word2))
-        res = ""
-        for i in range(sml):
-            res += word1[i]
-            res += word2[i]
+        l = len(word1)
+        r = len(word2)
+        merged = []
+        k = 0
+        while k < min(l,r):
+            merged.append(word1[k])
+            merged.append(word2[k])
+            k += 1
+            
 
-        if len(word1)>len(word2):
-            res += word1[sml:]
-        else:
-            res += word2[sml:]
-
-        return res
+        while k < l:
+            merged.append(word1[k])
+            k += 1
+        while k < r:
+            merged.append(word2[k])
+            k += 1
+        return "".join(merged)
