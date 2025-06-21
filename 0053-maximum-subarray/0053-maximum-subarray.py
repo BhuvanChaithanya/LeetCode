@@ -2,17 +2,15 @@ class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         maxi = float('-inf')
 
-        res = 0 
-
-        for i in range(len(nums)):
-            res += nums[i]
-
-            maxi = max(res, maxi)
-            
-            if res <0:
-                res = 0
-
+        sumx = 0
+        for n in nums:
+            sumx += n
+            maxi = max(maxi, sumx)
+            if sumx <0:
+                sumx = 0
 
         return maxi
+        
+
 
             
