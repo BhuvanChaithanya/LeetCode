@@ -18,8 +18,6 @@ class Solution:
                     # Skip duplicates for left and right
                     while l < r and nums[l] == nums[l + 1]:
                         l += 1
-                    while l < r and nums[r] == nums[r - 1]:
-                        r -= 1
                     l += 1
                 elif total < 0:
                     l += 1
