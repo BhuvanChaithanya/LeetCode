@@ -10,6 +10,4 @@ class Solution:
 
             elif total %k in remainder and i - remainder[total%k] >=2:
                 return True
-
-        
         return False
