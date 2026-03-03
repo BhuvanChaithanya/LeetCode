@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0075-sort-colors) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0229-majority-element-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0229-majority-element-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0706-design-hashmap) |
 ## Two Pointers
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0229-majority-element-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0706-design-hashmap) |
 ## Linked List
@@ -57,4 +59,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0229-majority-element-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
