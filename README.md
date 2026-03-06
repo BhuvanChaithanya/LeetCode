@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0027-remove-element) |
+| [0041-first-missing-positive](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0041-first-missing-positive) |
 | [0075-sort-colors](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0075-sort-colors) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0229-majority-element-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0229-majority-element-ii) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0041-first-missing-positive) |
 | [0229-majority-element-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0705-design-hashset) |
