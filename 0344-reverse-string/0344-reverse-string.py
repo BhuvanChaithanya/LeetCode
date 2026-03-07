@@ -3,12 +3,9 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        l = 0
-        h = len(s)-1
-
-        while l<h:
-            s[l], s[h] = s[h], s[l]
-            l += 1
-            h -= 1
-
+        l,r = 0, len(s)-1
+        while l<r:
+            s[l],s[r] = s[r],s[l]
+            l+= 1
+            r -=1
         
