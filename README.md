@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0027-remove-element](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0075-sort-colors) |
+| [0344-reverse-string](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0344-reverse-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -65,4 +66,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+## String
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
