@@ -1,13 +1,17 @@
 class Solution:
-    def pal(self, s):
-        return s==s[::-1]
     def validPalindrome(self, s: str) -> bool:
-        l = 0
-        r = len(s)-1
-        while l<r:
+        def is_palindrome(l, r,s):
+            while l <r:
+                if s[l] != s[r]:
+                    return False
+                l += 1
+                r -= 1
+            return True
+
+        l, r = 0, len(s)-1
+        while l < r:
             if s[l] != s[r]:
-                return self.pal(s[l+1:r+1]) or (self.pal(s[l:r]))
+                return is_palindrome(l+1,r, s) or is_palindrome(l, r-1,s)
             l += 1
-            r -= 1
+            r -=1
         return True
-        
