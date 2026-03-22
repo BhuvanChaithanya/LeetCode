@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0658-find-k-closest-elements](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0682-baseball-game](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0682-baseball-game) |
 | [0705-design-hashset](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0706-design-hashmap) |
 | [0881-boats-to-save-people](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0881-boats-to-save-people) |
@@ -135,4 +136,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0658-find-k-closest-elements) |
+## Stack
+|  |
+| ------- |
+| [0682-baseball-game](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0682-baseball-game) |
+## Simulation
+|  |
+| ------- |
+| [0682-baseball-game](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0682-baseball-game) |
 <!---LeetCode Topics End-->
