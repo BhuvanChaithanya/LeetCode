@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0344-reverse-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0020-valid-parentheses) |
 | [0682-baseball-game](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
