@@ -1,19 +1,22 @@
 class MyStack:
 
     def __init__(self):
-        self.stack = []
+        self.q = deque()
 
     def push(self, x: int) -> None:
-        self.stack.append(x)
+        self.q.append(x)
+        for _ in range(len(self.q) - 1):
+            self.q.append(self.q.popleft())
 
     def pop(self) -> int:
-        return self.stack.pop()
+        return self.q.popleft()
 
     def top(self) -> int:
-        return self.stack[-1]
+        return self.q[0]
 
     def empty(self) -> bool:
-        return True if not self.stack else False
+        return len(self.q) == 0
+        
         
 
 
