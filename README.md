@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0705-design-hashset](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0706-design-hashmap) |
 ## Hash Function
@@ -141,9 +142,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0020-valid-parentheses) |
+| [0225-implement-stack-using-queues](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0682-baseball-game](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0682-baseball-game) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/BhuvanChaithanya/LeetCode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
