@@ -1,22 +1,26 @@
 class MyQueue:
 
     def __init__(self):
-        self.queue = []
+        self.s1 = []
+        self.s2 = []
 
     def push(self, x: int) -> None:
-        self.queue.insert(0,x)
+        self.s1.append(x)
 
     def pop(self) -> int:
-        return self.queue.pop()
+        if not self.s2:
+            while self.s1:
+                self.s2.append(self.s1.pop())
+        return self.s2.pop()
 
     def peek(self) -> int:
-        return self.queue[-1]
+        if not self.s2:
+            while self.s1:
+                self.s2.append(self.s1.pop())
+        return self.s2[-1]
 
     def empty(self) -> bool:
-        return True if not self.queue else False
-        
-
-
+        return max(len(self.s1), len(self.s2)) == 0
 # Your MyQueue object will be instantiated and called as such:
 # obj = MyQueue()
 # obj.push(x)
